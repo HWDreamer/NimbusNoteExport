@@ -1,0 +1,22 @@
+# databases, built from other sources.
+*.db
+*.db-shm
+*.db-wal
+*.db-journal
+
+# These are scripts used in development.
+aa*
+table
+
+# Emacs temporary files.
+*~
+TAGS
+*.bak
+\#*\#
+.\#*
+
+# Ignore reports that were dumped into project directory, and files with
+# secret information.
+*.txt
+*.html
+*.cfg
